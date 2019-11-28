@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Myrunner" project="cucumber-orange" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="Runner.Myrunner" time="0.165">
+    <testcase name="initializationError" classname="Runner.Myrunner" time="0.165">
+      <error>java.lang.TypeNotPresentException: Type cucmber not present&#13;
+	at sun.reflect.annotation.TypeNotPresentExceptionProxy.generateException(Unknown Source)&#13;
+	at sun.reflect.annotation.AnnotationInvocationHandler.invoke(Unknown Source)&#13;
+	at com.sun.proxy.$Proxy2.value(Unknown Source)&#13;
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)&#13;
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)&#13;
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)&#13;
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)&#13;
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:33)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.createUnfilteredTest(JUnit4TestLoader.java:84)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.createTest(JUnit4TestLoader.java:70)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.loadTests(JUnit4TestLoader.java:43)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:444)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+Caused by: java.lang.ClassNotFoundException: cucmber&#13;
+	at java.net.URLClassLoader.findClass(Unknown Source)&#13;
+	at java.lang.ClassLoader.loadClass(Unknown Source)&#13;
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)&#13;
+	at java.lang.ClassLoader.loadClass(Unknown Source)&#13;
+	at java.lang.Class.forName0(Native Method)&#13;
+	at java.lang.Class.forName(Unknown Source)&#13;
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(Unknown Source)&#13;
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Unknown Source)&#13;
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(Unknown Source)&#13;
+	at sun.reflect.annotation.AnnotationParser.parseSig(Unknown Source)&#13;
+	at sun.reflect.annotation.AnnotationParser.parseClassValue(Unknown Source)&#13;
+	at sun.reflect.annotation.AnnotationParser.parseMemberValue(Unknown Source)&#13;
+	at sun.reflect.annotation.AnnotationParser.parseAnnotation2(Unknown Source)&#13;
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations2(Unknown Source)&#13;
+	at sun.reflect.annotation.AnnotationParser.parseAnnotations(Unknown Source)&#13;
+	at java.lang.Class.createAnnotationData(Unknown Source)&#13;
+	at java.lang.Class.annotationData(Unknown Source)&#13;
+	at java.lang.Class.getAnnotation(Unknown Source)&#13;
+	at org.junit.internal.builders.IgnoredBuilder.runnerForClass(IgnoredBuilder.java:10)&#13;
+	... 11 more&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49213" started-at="2019-11-20T10:50:54Z" finished-at="2019-11-20T10:51:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49213" started-at="2019-11-20T10:50:54Z" finished-at="2019-11-20T10:51:43Z">
+      <class name="orangelive.orLogin">
+        <test-method status="PASS" signature="setup()[pri:0, instance:orangelive.orLogin@490ab905]" name="setup" is-config="true" duration-ms="21001" started-at="2019-11-20T10:50:54Z" finished-at="2019-11-20T10:51:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="PIMtable()[pri:0, instance:orangelive.orLogin@490ab905]" name="PIMtable" duration-ms="27790" started-at="2019-11-20T10:51:15Z" finished-at="2019-11-20T10:51:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PIMtable -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:orangelive.orLogin@490ab905]" name="teardown" is-config="true" duration-ms="357" started-at="2019-11-20T10:51:43Z" finished-at="2019-11-20T10:51:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- orangelive.orLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

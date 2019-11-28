@@ -1,0 +1,15 @@
+package Pageorange;
+
+import org.openqa.selenium.support.PageFactory;
+
+import TestBase.OrangeTestBase;
+
+public class orangelogin extends OrangeTestBase {
+	
+	
+	//Initializing the Page Objects:
+	public orangelogin(){
+		PageFactory.initElements(driver, this);
+	}
+
+}

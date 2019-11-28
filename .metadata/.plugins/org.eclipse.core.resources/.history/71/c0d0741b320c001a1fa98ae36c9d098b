@@ -1,0 +1,19 @@
+package Pageorange;
+
+
+
+import java.io.IOException;
+
+import TestBase.OrangeTestBase;
+
+public class orangelogin extends OrangeTestBase {
+
+	public orangelogin() throws IOException {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+
+}
